@@ -1,1 +1,2 @@
-# WaffleBlox-Website
+# The WaffleBlox Website
+WaffleBlox.wtf
