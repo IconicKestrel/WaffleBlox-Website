@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WaffleBlox</title>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+<style>
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+    animation-fill-mode: forwards; /* Keeps the element visible after the animation ends */
+    opacity: 0; /* Initially set opacity to 0 */
+    font-family: 'M PLUS 1p', monospace; /* Apply M PLUS 1 Code font */
+  }
+
+  /* Delay animations for paragraphs */
+  .fade-in:nth-child(1) {
+    animation-delay: 1s;
+  }
+  .fade-in:nth-child(2) {
+    animation-delay: 2s; /* Delay the animation for the second paragraph by 1 second */
+  }
+  .fade-in:nth-child(3) {
+    animation-delay: 3s; /* Delay the animation for the third paragraph by 2 seconds */
+  }
+  .fade-in:nth-child(4) {
+    animation-delay: 4s; /* Delay the animation for the fourth paragraph by 3 seconds */
+  }
+
+  h1 {
+    font-family: 'M PLUS 1p', monospace; /* Apply M PLUS 1 Code font to the header */
+  }
+</style>
+</head>
+<body>
+
+<h1 class="fade-in">WaffleBlox</h1>
+<p class="fade-in">Hello my ROFL Waffles! WaffleBlox is still a WIP</p>
+<p class="fade-in">So it should be done sometime in the future</p>
+<p class="fade-in">Have a nice day!</p>
+
+</body>
+</html>
